@@ -5,8 +5,14 @@
     border: none;
 }
 
-#logo {
+/* Header, logo and menu */
+h1 {
     font-family: Waterfall, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+#logo {
     font-size: 400%;
     float: left;
     padding-left: 2rem;
