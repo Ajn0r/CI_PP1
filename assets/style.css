@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Waterfall&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#logo {
+    font-family: Waterfall, sans-serif;
+    font-size: 400%;
+    float: left;
+    padding-left: 2rem;
+    color: #9A7197;
+}
