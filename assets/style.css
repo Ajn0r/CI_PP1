@@ -5,6 +5,12 @@
     border: none;
 }
 
+body {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 300;
+    color: #7C5869;
+}
+
 /* Header, logo and menu */
 h1 {
     font-family: Waterfall, sans-serif;
@@ -17,4 +23,9 @@ h1 {
     float: left;
     padding-left: 2rem;
     color: #9A7197;
+}
+#menu {
+    float: right;
+    margin-right: 2rem;
+    list-style: none;
 }
