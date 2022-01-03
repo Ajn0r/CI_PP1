@@ -4,28 +4,27 @@
     padding: 0;
     border: none;
 }
-
 body {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 300;
     color: #463f3a;
     background-color: #F2F1ED;
-
 }
-
+/* Underlines the page its on. */
+.active {
+    border-bottom: 1px solid #463f3a;
+}
 /* Header, logo and menu */
 header {
     height: 6rem;
 }
-
 h1 {
     font-family: Waterfall, sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
-
 #logo {
-    font-size: 400%;
+    font-size: 430%;
     float: left;
     padding-left: 2rem;
     color: #E0AFA0;
@@ -41,7 +40,16 @@ h1 {
     float: right;
     margin-right: 2.5rem;
     text-transform: uppercase;
+    font-weight: bold;
 }
 #logo, #menu {
     line-height: 6rem;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    color: #E0AFA0;
+    border-bottom: 1px solid;
 }
