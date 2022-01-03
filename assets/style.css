@@ -8,7 +8,7 @@
 body {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 300;
-    color: #7C5869;
+    color: #463f3a;
 }
 
 /* Header, logo and menu */
@@ -23,9 +23,22 @@ h1 {
     float: left;
     padding-left: 2rem;
     color: #9A7197;
+    
 }
 #menu {
     float: right;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    font-size: 120%;
+    clear: right;
+    display: block;
+}
+#menu li {
     list-style: none;
+    float: right;
+    margin-right: 2.5rem;
+    text-transform: uppercase;
+}
+#logo, #menu {
+    line-height: 6rem;
+
 }
