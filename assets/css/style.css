@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Playfair Display', sans-serif;
@@ -25,27 +26,27 @@ h1 {
     padding-left: 2rem;
     color: #E0AFA0;
 }
-#menu {
+.menu {
     float: right;
     margin-right: 1rem;
     font-size: 120%;
     clear: right;
 }
-#menu li {
+.menu li {
     list-style: none;
     float: right;
     margin-right: 2.5rem;
     text-transform: uppercase;
     font-weight: bold;
 }
-#logo, #menu {
+#logo, .menu {
     line-height: 6rem;
 }
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
-#menu a:hover {
+.menu a:hover {
     color: #E0AFA0;
     border-bottom: 1px solid;
 }
@@ -59,12 +60,23 @@ h1 {
 }
 /* Flex box main div. */
 .flow {
-    width: 90%;
-    height: 20rem;
-    background-color: #E0AFA0;
-
+    width: 100%;
+    
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    justify-content: center;    
+ 
 }
 .flow > div  {
-    background-color: whitesmoke;
+    background-color: #E0AFA0;
     color: #463f3a;
+    width: 45%;
+    height: inherit;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px dotted grey;
+    min-height: 20rem;
+    text-align: center;
+    
 }
