@@ -4,6 +4,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    background-color: #FAF9F7;
 }
 body {
     font-family: 'Playfair Display', sans-serif;
@@ -69,14 +70,15 @@ h1 {
  
 }
 .flow > div  {
-    background-color: #E0AFA0;
     color: #463f3a;
     width: 45%;
     height: inherit;
     margin: 2rem;
     padding: 1rem;
-    border: 2px dotted grey;
+    border: 0.5px dotted grey;
     min-height: 20rem;
     text-align: center;
-    
+}
+.flow.odds {
+    background-color: #EFE2DB;
 }
