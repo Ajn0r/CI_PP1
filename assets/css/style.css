@@ -17,7 +17,6 @@ body {
 /* Header, logo and menu */
 h1 {
     font-family: Waterfall, sans-serif;
-    text-transform: capitalize;
     letter-spacing: 2px;
 }
 #logo {
@@ -58,7 +57,6 @@ h1 {
     height: 600px;
     overflow: hidden;
 }
-
 
 
 
