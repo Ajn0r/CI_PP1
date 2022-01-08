@@ -54,7 +54,7 @@ h1 {
 /* First section, hero image */
 
 #hero-image {
-    background: url(../images/IMG_2270.jpg) no-repeat center center;
+    background: url(../images/chanel.png) no-repeat center center;
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -81,4 +81,7 @@ h1 {
 }
 .flow.odds {
     background-color: #EFE2DB;
+}
+#hi {
+    background: url(../images/chanel.png) no-repeat center center;
 }
