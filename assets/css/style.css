@@ -63,16 +63,19 @@ h1 {
 }
 .hero-images-first {
     background-image: url(../images/chanelliten.png);
-    height: fit-content;
+    background: no-repeat center center/auto 100%;
 }
 .hero-images-second {
     background-image: url(../images/gulliten.png);
+    background: no-repeat center center/auto 100%;
 }
 .hero-images-third {
     background-image: url(../images/lilaliten.png);
+    background: no-repeat center center/auto 100%;
 }
 .hero-images-fourth {
     background-image: url(../images/molnhuvud.png);
+    background: no-repeat center center/auto 100%;
 }
 /* Flex box main div. */
 .flow {
