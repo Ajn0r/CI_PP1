@@ -52,12 +52,27 @@ h1 {
     border-bottom: 1px solid;
 }
 /* First section, hero image */
-
-#hero-image {
-    background: url(../images/chanel.png) no-repeat center center;
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
     height: 600px;
-    overflow: hidden;
+}
+.hero-images-first {
+    background-image: url(../images/chanelliten.png);
+    height: fit-content;
+}
+.hero-images-second {
+    background-image: url(../images/gulliten.png);
+}
+.hero-images-third {
+    background-image: url(../images/lilaliten.png);
+}
+.hero-images-fourth {
+    background-image: url(../images/molnhuvud.png);
 }
 /* Flex box main div. */
 .flow {
