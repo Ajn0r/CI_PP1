@@ -54,37 +54,24 @@ h1 {
 /* First section, hero image */
 .hero-container {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    height: auto;
+}
+.hero-images > img {
+    width: 420px;
     height: 600px;
-}
-.hero-images-first {
-    background-image: url(../images/chanelliten.png);
-    background: no-repeat center center/auto 100%;
-}
-.hero-images-second {
-    background-image: url(../images/gulliten.png);
-    background: no-repeat center center/auto 100%;
-}
-.hero-images-third {
-    background-image: url(../images/lilaliten.png);
-    background: no-repeat center center/auto 100%;
-}
-.hero-images-fourth {
-    background-image: url(../images/molnhuvud.png);
-    background: no-repeat center center/auto 100%;
 }
 /* Flex box main div. */
 .flow {
     width: 100%;
-    
     display: flex;
     align-content: center;
     align-items: baseline;
-    justify-content: center;    
+    justify-content: center;  
+    overflow: hidden;  
  
 }
 .flow > div  {
@@ -97,9 +84,4 @@ h1 {
     min-height: 20rem;
     text-align: center;
 }
-.flow.odds {
-    background-color: #EFE2DB;
-}
-#hi {
-    background: url(../images/chanel.png) no-repeat center center;
-}
+
