@@ -18,7 +18,10 @@ body {
 /* Header, logo and menu */
 h1 {
     font-family: Waterfall, sans-serif;
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+    color: #e0afa0;
+}
+    
 
 header {
     text-align: center;
@@ -30,6 +33,24 @@ header {
     font-size: 280%;
     margin: 0 auto;
 }
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
 
+}
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-link {
+    color: #463f3a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.nav-list-link:hover {
+    border-bottom: 1px solid #463f3a;
+}
 
 
