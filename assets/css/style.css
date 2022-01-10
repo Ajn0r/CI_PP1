@@ -58,7 +58,7 @@ header {
     display: block;
     transform: scale(1.1);
 }
-span {
+ .span-menu-bar{
     font-size: 200%;
 }
 
@@ -80,7 +80,7 @@ span {
         justify-content: space-evenly;
         display: flex;
     }
-    span {
+    .span-menu-bar {
         display: none;
     }
 
