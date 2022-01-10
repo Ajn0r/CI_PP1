@@ -83,6 +83,7 @@ header {
 .grid-main-3,
 .grid-main-4,
 .grid-main-5 {
+    min-height: 12rem;
     height: auto;
     width: auto;
     background-color: #e0afa0;
