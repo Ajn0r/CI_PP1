@@ -111,6 +111,13 @@ header {
         grid-template-areas: 
         ' one three three '
         ' one two five ' 
-        ' one four four ';
+        ' four four four ';
+    }
+}
+@media screen and (min-width: 1250px){
+    .main-section {
+        grid-template-areas: 
+        ' one two three three '
+        ' one four four five ';
     }
 }
