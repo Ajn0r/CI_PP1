@@ -8,7 +8,6 @@
 }
 body {
     font-family: 'Playfair Display', sans-serif;
-    font-weight: 300;
     color: #463f3a;
     /*background-color: rgba(242, 241, 237, .5);*/
 }
@@ -20,5 +19,19 @@ body {
 h1 {
     font-family: Waterfall, sans-serif;
     letter-spacing: 2px;}
+
+header {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto(4,1fr);
+    grid-template-areas:( 
+    '. logo logo .'
+    '. menu menu .');
+}
+.logo {grid-area: logo;}
+.menu {grid-area: menu;}
+
+
 
 
