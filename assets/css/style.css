@@ -31,7 +31,7 @@ header {
 .logo {
     width: 100%;
     text-decoration: none;
-    font-size: 280%;
+    font-size: 180%;
     margin: 0 auto;
 }
 .nav {
@@ -111,6 +111,9 @@ header {
     }
     header {
         margin-bottom: 1.5rem;
+    }
+    .logo{
+        font-size: 280%;
     }
     .nav {
         all: revert;
