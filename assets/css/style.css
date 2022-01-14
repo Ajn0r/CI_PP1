@@ -130,10 +130,10 @@ header {
     }
     .main-section {
         grid-template-areas: 
-            'one one three three'
-            'one one two four'
-            'one one two four'
-            'one one five five';
+            'one two'
+            'one three'
+            'one four'
+            'one five';
     }
     .grid-main-1 {
         min-width: 28rem;
@@ -143,10 +143,15 @@ header {
     header {
         margin-bottom: 1.5rem;
     }
+    .grid-main-1 {
+        min-width: 40rem;
+    }
+    
     .main-section {
         grid-template-areas: 
-        ' one two three three '
-        ' one four four five ';
+        ' one two four '
+        ' one three three'
+        'one five five';
     }
 
 }
