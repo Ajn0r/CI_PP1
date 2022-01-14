@@ -64,6 +64,7 @@ header {
 }
 /* Main content grid setup */
 .main-section {
+    align-items: center;
     display: grid;
     gap: 1rem;
     grid-template-areas:
@@ -84,13 +85,12 @@ header {
 .grid-main-3,
 .grid-main-4,
 .grid-main-5 {
-    min-height: 12rem;
     height: auto;
     max-width: auto;
-    background-color: #e0afa0;
     margin-left: 1rem;
     margin-right: 1rem;
     box-sizing: border-box;
+    text-align: center;
 }
 /* End of main content grid setup*/
 
@@ -101,6 +101,7 @@ header {
     background-repeat: no-repeat;
     background-position: center; 
     min-height: 40rem;
+    
 }
 
 
@@ -129,10 +130,13 @@ header {
     }
     .main-section {
         grid-template-areas: 
-        ' one one two '
-        ' one one three ' 
-        ' five five three '
-        'four four four';
+            'one one three three'
+            'one one two four'
+            'one one two four'
+            'one one five five';
+    }
+    .grid-main-1 {
+        min-width: 28rem;
     }
 }
 @media screen and (min-width: 1250px){
@@ -141,7 +145,8 @@ header {
     }
     .main-section {
         grid-template-areas: 
-        ' one one two three three '
-        ' one one four four five ';
+        ' one two three three '
+        ' one four four five ';
     }
+
 }
