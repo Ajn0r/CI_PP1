@@ -25,12 +25,13 @@ h1 {
 header {
     text-align: center;
     width: 100%;
-    height: 12rem;
+    height: auto;
+    overflow: hidden;
 }
 .logo {
     width: 100%;
     text-decoration: none;
-    font-size: 180%;
+    font-size: 230%;
     margin: 0 auto;
 }
 .nav {
@@ -102,6 +103,10 @@ header {
     min-height: 40rem;
 }
 /* Images section */
+.instagram {
+    width: 100%;
+    height: 30rem;
+}
 .images-section {
     display: flex;
 
@@ -121,6 +126,7 @@ footer {
     text-align: center;
     margin-top: 1rem;
     padding: 0.5rem 0;
+    z-index: 999;
 }
 footer > a {
     color: #463f3a;
