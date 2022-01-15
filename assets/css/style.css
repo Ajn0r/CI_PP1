@@ -96,26 +96,35 @@ header {
 
 /* Content of main */
 .grid-main-1{
-    background-image: url(../images/gulliten.png);
+    background-image: url(../images/matildapaintscolor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
     min-height: 40rem;
 }
-/* Images section */
-.instagram {
-    width: 100%;
-    height: 30rem;
-}
-.images-section {
-    display: flex;
+/*     .grid-main-5 {
+        background-image: url(../images/linjekvinna.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        min-width: 20rem;
+        min-height: 20rem;
+    }*/
 
+/* Images section */
+.images-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-.images-section > div {
-    width: 25%;
-    height: 15rem;
-    margin: 0.5rem;
-    background-color: #e0afa0;
+.images-containers {
+    width: 100%;
+    height: 100%;
+}
+.images-containers > img {
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 /* Footer styles*/
@@ -161,13 +170,20 @@ padding: 1rem 0 0.5rem 0;
     }
     .main-section {
         grid-template-areas: 
-            'one two'
             'one three'
             'one four'
-            'one five';
+            'one two';
     }
     .grid-main-1 {
         min-width: 28rem;
+    }
+    .images-main {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .images-containers > img {
+        max-width: 20rem;
+        max-height: 20rem;
     }
 }
 @media screen and (min-width: 1250px){
@@ -177,12 +193,10 @@ padding: 1rem 0 0.5rem 0;
     .grid-main-1 {
         min-width: 40rem;
     }
-    
+    /*
     .main-section {
         grid-template-areas: 
-        ' one two four '
-        ' one three three'
-        'one five five';
-    }
-
+        ' one two three three '
+        ' one four four five';
+    }*/
 }
